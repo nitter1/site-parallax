@@ -1,0 +1,116 @@
+body, html {
+	margin: 0;
+	font-size: 16px;
+	font-family: Helvetica, Verdana, sans-serif;
+	color: #777;
+	height: 100%;
+}
+
+h3 {
+	text-transform: uppercase;
+	color: #111;
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 10px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+a:hover.itenslista {
+	background: #fff;
+	color: #000;
+	text-decoration: none;
+	font-size: 18px;
+	letter-spacing: 3px;
+	margin-left: 5px;
+	padding: 5px;
+}
+
+#menu-horizontal {
+	padding-bottom: 1%;
+	padding-top: 1%; 
+	background: url(https://media.istockphoto.com/photos/gray-background-black-background-picture-id909200086?b=1&k=20&m=909200086&s=170667a&w=0&h=fVQ_5lE027dK_wzj1n_OJYSdmSqWonZj0jwILJb6Yd4=);
+	background-size: cover;
+}
+
+#lista {
+	list-style: none;
+	font-family: Tahoma, sans-serif;
+	text-transform: uppercase;
+}
+
+#rodapé {
+	color: #fff;
+	text-align: center;
+	background: url(https://media.istockphoto.com/photos/gray-background-black-background-picture-id909200086?b=1&k=20&m=909200086&s=170667a&w=0&h=fVQ_5lE027dK_wzj1n_OJYSdmSqWonZj0jwILJb6Yd4=);
+	height: 4%;
+	font-size: 18px;
+	padding-top: 0.6%;
+}
+
+.itenslista {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	letter-spacing: 3px;
+	margin-left: 5px;
+	padding: 5px;
+}
+
+.conteudo {
+	color: #777;
+	background-color: white;
+	text-align: justify;
+	padding: 50px 80px;
+}
+
+.conteudo-titulo {
+	position: absolute;
+	left: 0%;
+	top: 45%;
+	width: 100%;
+	text-align: center;
+}
+
+.conteudo-titulo span.titulo {
+	color: #fff;
+	background-color: #111;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+/***Efeito Parallax Abaixo***/
+
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5 {
+	position: relative;
+	height: 100%;
+	opacity: 0.7;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.caixa1 {
+	background-image: url(imagem1.jpg);
+}
+
+.caixa2 {
+	background-image: url(imagem2.jpg);
+}
+
+.caixa3 {
+	background-image: url(imagem3.jpg);
+}
+
+.caixa4 {
+	background-image: url(imagem4.jpg);
+}
+
+.caixa5 {
+	background-image: url(imagem5.jpg);
+}
